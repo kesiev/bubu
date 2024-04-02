@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="../js/translator.js"></script>
+        <script src="../js/tester.js"></script>
+    </head>
+</html><script>
+
+let
+    translator = new Translator(),
+    tester = new TranslatorTester();
+
+// console.log(tester.makeDict(translator));
+
+tester.words.forEach(word=>{
+    if (word[0].match(/[^a-zA-Z]/gi)) {
+        let translated = translator.translate(word[0],"bubu");
+        console.log(word[0],"->",translated);
+    }
+});
+
+</script>

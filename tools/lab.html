@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="../js/translator.js"></script>
+        <script src="../js/tester.js"></script>
+    </head>
+</html><script>
+
+    let
+        MODEL = "bubu",
+        SAMPLE = "",
+        SENTENCE =  ``;
+
+    let
+        translator = new Translator(),
+        tester = new TranslatorTester();
+
+    if (SAMPLE)
+        console.log(translator.testTranslate(SAMPLE.trim(),MODEL,true));
+    console.log("---");
+    console.log(translator.translate(SENTENCE.trim(),MODEL));
+    console.log("---");
+    tester.run(translator);
+
+</script>

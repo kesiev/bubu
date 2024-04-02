@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <title>Bubu 🐘</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <script src="js/translator.js"></script>
+    <style>
+        BODY {
+            background-color: #ccc;
+            padding:10px;
+        }
+
+        .container {
+            background-color: #fff;
+            padding:15px;
+            border-radius: 10px;
+            color: white;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width:80%;
+            min-width: 240px;
+            max-width: 800px;
+        }
+
+        textarea {
+            box-sizing: border-box;
+            width:100%;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            background-color: #f8f8f8;
+            font-size: 16px;
+            padding:15px;
+            resize: none;
+        }
+
+        button {
+            width: 100%;
+            background-color: #04AA6D;
+            border: none;
+            border-radius: 4px;
+            color: white;
+            padding: 15px;
+            text-decoration: none;
+            margin: 10px 0;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <textarea id="inputText" rows="5" placeholder="Inserisci il testo in italiano da tradurre."></textarea>
+        <button onclick="translateText()">Traduci 🐘</button>
+        <textarea id="translatedText" rows="5" readonly placeholder="Come potrebbe dirlo Bubu."></textarea>
+        <button onclick="copyText()">Copia</button>
+    </div>
+    <script>
+        function translateText() {
+            let
+                translator = new Translator();
+                translatedSentence = translator.translate(document.getElementById("inputText").value,"bubu");
+            
+            if (translatedSentence) translatedSentence = translatedSentence.toLowerCase();
+            document.getElementById("translatedText").value = "\""+translatedSentence + "\" - 🐘";
+        }
+
+        function copyText() {
+            translatedText.select();
+            document.execCommand('copy');
+        }
+    </script>
+</body>
+</html>
