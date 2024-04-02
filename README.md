@@ -20,7 +20,7 @@ There are _turtles flying like UFOs_! There are _questioning giraffes_! There ar
     <p><img src="markdown/bubu.png"></p>
 </div>
 
-It speaks Italian with a very high-pitched voice... but it has some defective pronunciation that is quite common _in some puppets_. Many words have the same sound so it's hard (and fun) to translate its words into Italian.
+It speaks Italian with a very high-pitched voice... but it has some defective pronunciation that is quite common _in some puppets_. Many words have the same sound so it's hard (and fun) to translate its words into Italian. So, I've put together a translator from Italian to Bubu to help you understand them - or to speak like them. It's not accurate but it mostly does the job.
 
 ## The project
 
