@@ -280,10 +280,6 @@ let Translator=function(){
                 type:"replace",
                 from:/cl([ei])/gi,
                 to:"ch$1"
-            },{
-                type:"replace",
-                from:/(^|[^a-z])gl([aeiou])([^a-z]|$)/gi,
-                to:"$1$2$3"
             },
 
             // --- NLA -> LLA (finlandese -> fillandese)
@@ -297,6 +293,10 @@ let Translator=function(){
             {
                 type:"replace",
                 from:/(^|[^aeou])gl([ie])([aeiou])/gi,
+                to:"$1$2$3"
+            },{
+                type:"replace",
+                from:/(^|[^aeou])gl([i])([^a-z]|$)/gi,
                 to:"$1$2$3"
             },{
                 type:"replace",

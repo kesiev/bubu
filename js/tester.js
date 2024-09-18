@@ -71,8 +71,8 @@ let TranslatorTester=function(){
             to:"La use coppí i abbei deggiaddino; e foiie si illuminaono una dopo l’atta. Un ussello singuettò su in atto; si fu una pausa, un atto singuettò ziú in basso. Issoe, che faseva isattae i spigoi delle mua della caza, si pozzò suua pessiana bianca e lassiò un’imponta di omba aszurra sotto la foiia accanto alla finesta della camea da etto. La pessiana si mosse appena, ma dento ea tutto buio e immateiae. Fuoi i usselli cantavano la oo meodia vuota."
         },{
             filter:"bubu",
-            from:"caccia software computer hacke new york c'é piango animale animalista annualità assemblea autoctono snodo capitalistico collant compilato continentale contumelia mensile michelis novantatré palato radicale radio balza asfalto razzista lucia lazaroni cecci mezzo mezza lira grullo cervo crollo pace farlo giro stigma calma pericle alexa gleba sigla sigle migliori con le gianluca allungamento cellulosa cellula per rappresentare illuminarono problema così",
-            to:"cassa softue computehache niu ioc sé pianzo animae animaissa annuaità assembea autottono zjnodo capitaissico collant compiato continentae contumeia mensie micheis novantaté paato adicae adio balsa asfatto assissa usia lazaoni secci meszo mesza ia gullo sevvo collo pase fallo zjio stimma camma peiche aessa gheba siga sighe miioi colle zjialluca allungamento selluloza sellula peappesentae illuminaono pobema così"
+            from:"figli caccia software computer hacke new york c'é piango animale animalista annualità assemblea autoctono snodo capitalistico collant compilato continentale contumelia mensile michelis novantatré palato radicale radio balza asfalto razzista lucia lazaroni cecci mezzo mezza lira grullo cervo crollo pace farlo giro stigma calma pericle alexa gleba sigla sigle migliori con le gianluca allungamento cellulosa cellula per rappresentare illuminarono problema così",
+            to:"fii cassa softue computehache niu ioc sé pianzo animae animaissa annuaità assembea autottono zjnodo capitaissico collant compiato continentae contumeia mensie micheis novantaté paato adicae adio balsa asfatto assissa usia lazaoni secci meszo mesza ia gullo sevvo collo pase fallo zjio stimma camma peiche aessa gheba siga sighe miioi colle zjialluca allungamento selluloza sellula peappesentae illuminaono pobema così"
         }
     ];
 
@@ -5928,7 +5928,7 @@ let TranslatorTester=function(){
         [ 'giusto', 'zjiusto' ],
         [ 'giusy', 'zjiuii' ],
         [ 'give', 'zive' ],
-        [ 'glaciazione', 'asassione' ],
+        [ 'glaciazione', 'gasassione' ],
         [ 'gladio', 'gadio' ],
         [ 'gleba', 'gheba' ],
         [ 'glissare', 'ghissae' ],
@@ -12313,6 +12313,7 @@ let TranslatorTester=function(){
         [ 'sigillare', 'sizillae' ],
         [ 'sigillo', 'sizillo' ],
         [ 'sigla', 'siga' ],
+        [ 'sigle', 'sighe' ],
         [ 'signa', 'signa' ],
         [ 'significare', 'significae' ],
         [ 'significativamente', 'significativamente' ],
